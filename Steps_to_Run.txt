@@ -1,0 +1,14 @@
+7)
+Step 1:
+/* webCrawl file should be in home directory */
+pig preStep.pig
+
+Step 2:
+/* run udf defined as python file */
+/* command should be run from home directory */
+pig pr.py
+
+Step 3:
+/* format the output */
+/* command should be run from home directory and output can be found in directory Q7 relative to home directory */
+pig postStep.pig
